@@ -1,0 +1,51 @@
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Xcode: user-specific state, never shared ────────────────────────────────
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# ── Build products ──────────────────────────────────────────────────────────
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# ── Swift Package Manager / CocoaPods / Carthage ────────────────────────────
+.build/
+.swiftpm/
+Pods/
+Carthage/Build/
+
+# ── Artwork: excluded from version control ──────────────────────────────────
+# ~504 MB of third-party imagery — gallery scans (Mona Lisa, The Kiss, The
+# Scream…), atlas and transit maps including the TfL standard tube map,
+# magazine covers, and football club photography. None of it is ours to
+# redistribute, and one file alone is 69 MB.
+#
+# Every Contents.json IS still tracked, so Xcode continues to show the
+# imagesets and it stays obvious which files need restoring. See ASSETS.md.
+PicoProjectAAC/Assets.xcassets/Arts/**/*.jpg
+PicoProjectAAC/Assets.xcassets/Arts/**/*.jpeg
+PicoProjectAAC/Assets.xcassets/Arts/**/*.png
+PicoProjectAAC/Assets.xcassets/Continents/**/*.jpg
+PicoProjectAAC/Assets.xcassets/Continents/**/*.jpeg
+PicoProjectAAC/Assets.xcassets/Continents/**/*.png
+PicoProjectAAC/Assets.xcassets/Local Maps/**/*.jpg
+PicoProjectAAC/Assets.xcassets/Local Maps/**/*.jpeg
+PicoProjectAAC/Assets.xcassets/Local Maps/**/*.png
+PicoProjectAAC/Assets.xcassets/Sports/**/*.jpg
+PicoProjectAAC/Assets.xcassets/Sports/**/*.jpeg
+PicoProjectAAC/Assets.xcassets/Sports/**/*.png
+PicoProjectAAC/Assets.xcassets/Pages/**/*.jpg
+PicoProjectAAC/Assets.xcassets/Pages/**/*.jpeg
+PicoProjectAAC/Assets.xcassets/Pages/**/*.png
+
+# Kept deliberately: AppIcon, the Aphasia imageset, Thumbnails and
+# angel-signage — your own material, ~750 KB in total.

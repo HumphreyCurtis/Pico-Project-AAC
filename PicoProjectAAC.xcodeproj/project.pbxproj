@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1261AEB2BB1895D00754DE8 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AEA2BB1895D00754DE8 /* InfoPanelView.swift */; };
+		A1261AED2BB1B27100754DE8 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AEC2BB1B27100754DE8 /* ControlImageView.swift */; };
+		A1261AEF2BB1C2F800754DE8 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AEE2BB1C2F800754DE8 /* PageModel.swift */; };
+		A1261AF12BB1C37900754DE8 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AF02BB1C37900754DE8 /* PageData.swift */; };
+		A1261AF52BB1CCE700754DE8 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AF42BB1CCE700754DE8 /* PageView.swift */; };
+		A1261AF72BB1D11400754DE8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AF62BB1D11400754DE8 /* MenuView.swift */; };
+		A1261AF92BB1E66E00754DE8 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AF82BB1E66E00754DE8 /* LogoView.swift */; };
+		A1261AFB2BB1FE5B00754DE8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1261AFA2BB1FE5B00754DE8 /* ImageView.swift */; };
+		A12CCA132BB0CBB300DB685A /* PicoProjectAACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12CCA122BB0CBB300DB685A /* PicoProjectAACApp.swift */; };
+		A12CCA152BB0CBB300DB685A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12CCA142BB0CBB300DB685A /* ContentView.swift */; };
+		A12CCA172BB0CBB400DB685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12CCA162BB0CBB400DB685A /* Assets.xcassets */; };
+		A12CCA1A2BB0CBB400DB685A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12CCA192BB0CBB400DB685A /* Preview Assets.xcassets */; };
+		A12CCA202BB0CBB400DB685A /* PicoProjectAAC Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A12CCA1F2BB0CBB400DB685A /* PicoProjectAAC Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A12CCA252BB0CBB400DB685A /* PicoProjectAACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12CCA242BB0CBB400DB685A /* PicoProjectAACApp.swift */; };
+		A12CCA272BB0CBB400DB685A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12CCA262BB0CBB400DB685A /* ContentView.swift */; };
+		A12CCA292BB0CBB500DB685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12CCA282BB0CBB500DB685A /* Assets.xcassets */; };
+		A12CCA2C2BB0CBB500DB685A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12CCA2B2BB0CBB500DB685A /* Preview Assets.xcassets */; };
+		A1B1F46D2BBB230A0043B995 /* OldPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1F46C2BBB230A0043B995 /* OldPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12CCA212BB0CBB400DB685A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12CCA072BB0CBB300DB685A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12CCA1E2BB0CBB400DB685A;
+			remoteInfo = "PicoProjectAAC Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A12CCA322BB0CBB500DB685A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A12CCA202BB0CBB400DB685A /* PicoProjectAAC Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1261AEA2BB1895D00754DE8 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		A1261AEC2BB1B27100754DE8 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		A1261AEE2BB1C2F800754DE8 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		A1261AF02BB1C37900754DE8 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		A1261AF42BB1CCE700754DE8 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		A1261AF62BB1D11400754DE8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A1261AF82BB1E66E00754DE8 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A1261AFA2BB1FE5B00754DE8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		A12CCA0F2BB0CBB300DB685A /* PicoProjectAAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoProjectAAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12CCA122BB0CBB300DB685A /* PicoProjectAACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoProjectAACApp.swift; sourceTree = "<group>"; };
+		A12CCA142BB0CBB300DB685A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A12CCA162BB0CBB400DB685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12CCA192BB0CBB400DB685A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A12CCA1F2BB0CBB400DB685A /* PicoProjectAAC Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PicoProjectAAC Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12CCA242BB0CBB400DB685A /* PicoProjectAACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicoProjectAACApp.swift; sourceTree = "<group>"; };
+		A12CCA262BB0CBB400DB685A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A12CCA282BB0CBB500DB685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12CCA2B2BB0CBB500DB685A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B1F46C2BBB230A0043B995 /* OldPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12CCA0C2BB0CBB300DB685A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12CCA1C2BB0CBB400DB685A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12CCA062BB0CBB300DB685A = {
+			isa = PBXGroup;
+			children = (
+				A12CCA112BB0CBB300DB685A /* PicoProjectAAC */,
+				A12CCA232BB0CBB400DB685A /* PicoProjectAAC Watch App */,
+				A12CCA102BB0CBB300DB685A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12CCA102BB0CBB300DB685A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12CCA0F2BB0CBB300DB685A /* PicoProjectAAC.app */,
+				A12CCA1F2BB0CBB400DB685A /* PicoProjectAAC Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12CCA112BB0CBB300DB685A /* PicoProjectAAC */ = {
+			isa = PBXGroup;
+			children = (
+				A12CCA122BB0CBB300DB685A /* PicoProjectAACApp.swift */,
+				A12CCA392BB0CFA100DB685A /* View */,
+				A12CCA382BB0CF9A00DB685A /* Data */,
+				A12CCA372BB0CF8D00DB685A /* Model */,
+				A12CCA362BB0CF6800DB685A /* Screen */,
+				A12CCA162BB0CBB400DB685A /* Assets.xcassets */,
+				A12CCA182BB0CBB400DB685A /* Preview Content */,
+			);
+			path = PicoProjectAAC;
+			sourceTree = "<group>";
+		};
+		A12CCA182BB0CBB400DB685A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A12CCA192BB0CBB400DB685A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A12CCA232BB0CBB400DB685A /* PicoProjectAAC Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A12CCA242BB0CBB400DB685A /* PicoProjectAACApp.swift */,
+				A12CCA262BB0CBB400DB685A /* ContentView.swift */,
+				A12CCA282BB0CBB500DB685A /* Assets.xcassets */,
+				A12CCA2A2BB0CBB500DB685A /* Preview Content */,
+			);
+			path = "PicoProjectAAC Watch App";
+			sourceTree = "<group>";
+		};
+		A12CCA2A2BB0CBB500DB685A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A12CCA2B2BB0CBB500DB685A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A12CCA362BB0CF6800DB685A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A1261AF62BB1D11400754DE8 /* MenuView.swift */,
+				A12CCA142BB0CBB300DB685A /* ContentView.swift */,
+				A1261AF42BB1CCE700754DE8 /* PageView.swift */,
+				A1B1F46C2BBB230A0043B995 /* OldPageView.swift */,
+				A1261AF82BB1E66E00754DE8 /* LogoView.swift */,
+				A1261AFA2BB1FE5B00754DE8 /* ImageView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A12CCA372BB0CF8D00DB685A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1261AEE2BB1C2F800754DE8 /* PageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A12CCA382BB0CF9A00DB685A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1261AF02BB1C37900754DE8 /* PageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A12CCA392BB0CFA100DB685A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1261AEA2BB1895D00754DE8 /* InfoPanelView.swift */,
+				A1261AEC2BB1B27100754DE8 /* ControlImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12CCA0E2BB0CBB300DB685A /* PicoProjectAAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12CCA332BB0CBB500DB685A /* Build configuration list for PBXNativeTarget "PicoProjectAAC" */;
+			buildPhases = (
+				A12CCA0B2BB0CBB300DB685A /* Sources */,
+				A12CCA0C2BB0CBB300DB685A /* Frameworks */,
+				A12CCA0D2BB0CBB300DB685A /* Resources */,
+				A12CCA322BB0CBB500DB685A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12CCA222BB0CBB400DB685A /* PBXTargetDependency */,
+			);
+			name = PicoProjectAAC;
+			productName = PicoProjectAAC;
+			productReference = A12CCA0F2BB0CBB300DB685A /* PicoProjectAAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12CCA1E2BB0CBB400DB685A /* PicoProjectAAC Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12CCA2F2BB0CBB500DB685A /* Build configuration list for PBXNativeTarget "PicoProjectAAC Watch App" */;
+			buildPhases = (
+				A12CCA1B2BB0CBB400DB685A /* Sources */,
+				A12CCA1C2BB0CBB400DB685A /* Frameworks */,
+				A12CCA1D2BB0CBB400DB685A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PicoProjectAAC Watch App";
+			productName = "PicoProjectAAC Watch App";
+			productReference = A12CCA1F2BB0CBB400DB685A /* PicoProjectAAC Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12CCA072BB0CBB300DB685A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A12CCA0E2BB0CBB300DB685A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A12CCA1E2BB0CBB400DB685A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A12CCA0A2BB0CBB300DB685A /* Build configuration list for PBXProject "PicoProjectAAC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12CCA062BB0CBB300DB685A;
+			productRefGroup = A12CCA102BB0CBB300DB685A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12CCA0E2BB0CBB300DB685A /* PicoProjectAAC */,
+				A12CCA1E2BB0CBB400DB685A /* PicoProjectAAC Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12CCA0D2BB0CBB300DB685A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12CCA1A2BB0CBB400DB685A /* Preview Assets.xcassets in Resources */,
+				A12CCA172BB0CBB400DB685A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12CCA1D2BB0CBB400DB685A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12CCA2C2BB0CBB500DB685A /* Preview Assets.xcassets in Resources */,
+				A12CCA292BB0CBB500DB685A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12CCA0B2BB0CBB300DB685A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1261AFB2BB1FE5B00754DE8 /* ImageView.swift in Sources */,
+				A1261AED2BB1B27100754DE8 /* ControlImageView.swift in Sources */,
+				A1B1F46D2BBB230A0043B995 /* OldPageView.swift in Sources */,
+				A1261AF92BB1E66E00754DE8 /* LogoView.swift in Sources */,
+				A1261AF72BB1D11400754DE8 /* MenuView.swift in Sources */,
+				A1261AF52BB1CCE700754DE8 /* PageView.swift in Sources */,
+				A1261AEF2BB1C2F800754DE8 /* PageModel.swift in Sources */,
+				A12CCA152BB0CBB300DB685A /* ContentView.swift in Sources */,
+				A12CCA132BB0CBB300DB685A /* PicoProjectAACApp.swift in Sources */,
+				A1261AF12BB1C37900754DE8 /* PageData.swift in Sources */,
+				A1261AEB2BB1895D00754DE8 /* InfoPanelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12CCA1B2BB0CBB400DB685A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12CCA272BB0CBB400DB685A /* ContentView.swift in Sources */,
+				A12CCA252BB0CBB400DB685A /* PicoProjectAACApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12CCA222BB0CBB400DB685A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12CCA1E2BB0CBB400DB685A /* PicoProjectAAC Watch App */;
+			targetProxy = A12CCA212BB0CBB400DB685A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A12CCA2D2BB0CBB500DB685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A12CCA2E2BB0CBB500DB685A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A12CCA302BB0CBB500DB685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicoProjectAAC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PicoProjectAAC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.humphreycurtis.PicoProjectAAC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PicoProjectAAC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A12CCA312BB0CBB500DB685A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicoProjectAAC Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PicoProjectAAC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.humphreycurtis.PicoProjectAAC;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PicoProjectAAC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A12CCA342BB0CBB500DB685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicoProjectAAC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PicoProjectAAC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PicoProjectAAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12CCA352BB0CBB500DB685A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PicoProjectAAC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GJ7PP6627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PicoProjectAAC;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humphreycurtis.PicoProjectAAC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12CCA0A2BB0CBB300DB685A /* Build configuration list for PBXProject "PicoProjectAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12CCA2D2BB0CBB500DB685A /* Debug */,
+				A12CCA2E2BB0CBB500DB685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12CCA2F2BB0CBB500DB685A /* Build configuration list for PBXNativeTarget "PicoProjectAAC Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12CCA302BB0CBB500DB685A /* Debug */,
+				A12CCA312BB0CBB500DB685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12CCA332BB0CBB500DB685A /* Build configuration list for PBXNativeTarget "PicoProjectAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12CCA342BB0CBB500DB685A /* Debug */,
+				A12CCA352BB0CBB500DB685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12CCA072BB0CBB300DB685A /* Project object */;
+}
