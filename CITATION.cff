@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Curtis
     given-names: Humphrey
-repository-code: "https://github.com/HumphreyCurtis/PicoProjectAAC"
+repository-code: "https://github.com/HumphreyCurtis/Pico-Project-AAC"
 url: "https://humphreycurtis.github.io/html/portfolio/looking-past-screens.html"
 license: MIT
 preferred-citation:
