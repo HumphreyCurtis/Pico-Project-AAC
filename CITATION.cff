@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, please cite the accompanying paper."
+title: "Pico-project AAC"
+type: software
+authors:
+  - family-names: Curtis
+    given-names: Humphrey
+repository-code: "https://github.com/HumphreyCurtis/PicoProjectAAC"
+url: "https://humphreycurtis.github.io/html/portfolio/looking-past-screens.html"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Curtis
+      given-names: Humphrey
+    - family-names: Jenkins
+      given-names: Adam D. G.
+    - family-names: Ibrahim
+      given-names: Seray B.
+    - family-names: Neate
+      given-names: Timothy
+  title: "Looking Past Screens: Exploring Mixed Reality and Discreet AAC Devices"
+  collection-title: "The 26th International ACM SIGACCESS Conference on Computers and Accessibility"
+  publisher:
+    name: ACM
+  year: 2024
+  doi: "10.1145/3663548.3675655"

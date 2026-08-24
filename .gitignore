@@ -24,7 +24,7 @@ Pods/
 Carthage/Build/
 
 # ── Artwork: excluded from version control ──────────────────────────────────
-# ~504 MB of third-party imagery — gallery scans (Mona Lisa, The Kiss, The
+# Roughly 500 MB of third-party imagery — gallery scans (Mona Lisa, The Kiss, The
 # Scream…), atlas and transit maps including the TfL standard tube map,
 # magazine covers, and football club photography. None of it is ours to
 # redistribute, and one file alone is 69 MB.

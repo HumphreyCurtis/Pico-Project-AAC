@@ -1,7 +1,7 @@
 # Artwork is not in this repository
 
-This repo contains the code, project structure and asset *catalogue* for
-PicoProjectAAC, but not the page imagery itself — about 528 MB of it.
+This repository contains the code, project structure and asset *catalogue* for
+Pico-project AAC, but not roughly 500 MB of page imagery used in the study.
 
 ## Why
 
@@ -17,11 +17,11 @@ Every `Contents.json` **is** tracked, so Xcode still shows all the imagesets;
 they just render empty. The app builds, but pages appear blank until the
 artwork is restored.
 
-## Restoring it
+## Supplying replacement imagery
 
-The full assets live in the local working copy at
-`~/Documents/1-Projects/PicoProjectAAC`, which is where they should stay. To
-put them back into a fresh clone, copy these directories across:
+To recreate the image library, add appropriately licensed files to the
+following asset-catalogue directories. The expected filenames are recorded in
+each imageset's `Contents.json` file.
 
     PicoProjectAAC/Assets.xcassets/Arts/
     PicoProjectAAC/Assets.xcassets/Continents/
@@ -34,12 +34,14 @@ put them back into a fresh clone, copy these directories across:
 `AppIcon`, `AccentColor`, the `Aphasia` imageset, `Thumbnails` and
 `angel-signage` — original material, ~750 KB in total.
 
-## If you ever want the images versioned
+## If you add redistributable images
 
 Git LFS is the right tool, not plain git:
 
     git lfs install
     git lfs track "*.jpg" "*.jpeg"
 
-Be aware LFS storage is quota'd on free accounts, and 528 MB would consume a
+meaningful slice of it.
+Be aware that LFS storage is quota-limited, and a collection of this size would
+consume a meaningful amount of it.
 meaningful slice of it.
